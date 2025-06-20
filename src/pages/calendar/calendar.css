@@ -1,0 +1,11 @@
+
+
+
+.fc-day-today {
+    background-color: #4cceac !important; /* Light cyan */
+    color: white; /* Dark teal text */
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: 700;
+  }
+  
