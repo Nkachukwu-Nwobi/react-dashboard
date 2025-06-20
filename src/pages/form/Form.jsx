@@ -47,7 +47,7 @@ function Form() {
           handleChange,
           handleSubmit,
         }) => (
-          <form onSubmit={handleSubmit} action="" className=" w-[94%] mx-auto">
+          <form onSubmit={handleSubmit} action="" className=" w-[94%] mx-auto ">
             <section className={`grid gap-4 grid-cols-4 `}>
               <div
                 className={`flex flex-col gap-2 ${
@@ -57,7 +57,7 @@ function Form() {
                 <label htmlFor="firstName">First Name</label>
                 <input
                   id="firstName"
-                  className={`bg-red-300 rounded-[20px] `}
+                  className={`bg-gray-200 rounded-[20px] text-black `}
                   type="text"
                   name="firstName"
                   aria-label="First Name"
@@ -76,7 +76,7 @@ function Form() {
                 <label htmlFor="lastName">Last Name</label>
                 <input
                   id="lastName"
-                  className={`bg-red-300 rounded-[20px]`}
+                  className={`bg-gray-200 rounded-[20px] text-black`}
                   type="text"
                   name="lastName"
                   aria-label="Last Name"
@@ -93,7 +93,7 @@ function Form() {
                 <label htmlFor="email">Email</label>
                 <input
                   id="email"
-                  className={`bg-red-300 rounded-[20px]`}
+                  className={`bg-gray-200 rounded-[20px] text-black`}
                   type="text"
                   name="email"
                   aria-label="email"
@@ -110,7 +110,7 @@ function Form() {
                 <label htmlFor="contact">Contact</label>
                 <input
                   id="contact"
-                  className={`bg-red-300 rounded-[20px]`}
+                  className={`bg-gray-200 rounded-[20px] text-black`}
                   type="tel"
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" //research more on patterns for validation
                   name="contact"
@@ -128,7 +128,7 @@ function Form() {
                 <label htmlFor="address1">Address1</label>
                 <input
                   id="address1"
-                  className={`bg-red-300 rounded-[20px]`}
+                  className={`bg-gray-200 rounded-[20px] text-black`}
                   type="text"
                   name="address1"
                   aria-label="address1"
@@ -145,7 +145,7 @@ function Form() {
                 <label htmlFor="address2">Address2</label>
                 <input
                   id="address2"
-                  className={`bg-red-300 rounded-[20px]`}
+                  className={`bg-gray-200 rounded-[20px] text-black`}
                   type="text"
                   name="address2"
                   aria-label="address2"

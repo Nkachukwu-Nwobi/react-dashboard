@@ -42,7 +42,7 @@ function SideBar() {
   const location = useLocation();
 
   return (
-    <div style={{ display: "flex", }}>
+    <div style={{ display: "flex", }} className="overflow-y-auto">
       <Sidebar
         collapsed={isCollapsed}
         onToggle={() => setIsCollapsed(!isCollapsed)}

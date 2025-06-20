@@ -16,7 +16,7 @@ function Dashboard() {
   const colors = tokens(theme.palette.mode);
 
   return (
-    <main className=" m-6">
+    <main className=" m-6 ">
       <section className=" flex justify-between items-center">
         <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
 
